@@ -9,6 +9,26 @@
           "name": "Nombre"
         }
       }
+    },
+    "abort": {
+      "already_configured": "La integración Impresora HP ({name}) ya esta configurada"
+    },
+    "error": {
+      "error_400": "Detalles invalidos del servidor",
+      "error_404": "API no soportada"
     }
+  },
+  "options": {
+      "step": {
+          "hp_printer_additional_settings": {
+              "title": "Opciones para Impresora HP.",
+              "description": "Establece configuraciones adicionales para la integración de Impresora HP",
+              "data": {
+                  "update_interval": "Intervalo de actualización (Segundos)",
+                  "log_level": "Detalle del registro",
+                  "store_data": "¿Se deben guardar las respuestas?"
+              }
+          }
+      }
   }
 }
